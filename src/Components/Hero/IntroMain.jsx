@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ExperienceComponent from "./ExperienceComponent";
 import Recommended from "./Recommended";
-import AboutComponent from "./aboutComponent";
+import AboutComponent from "./AboutComponent";
 
 const IntroMain = () => {
   const [tab, setTab] = useState("about");
